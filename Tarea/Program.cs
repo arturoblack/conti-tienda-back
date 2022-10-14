@@ -14,7 +14,16 @@ string conectionString = "Server=tcp:conti-db.database.windows.net,1433;Initial 
 
 builder.Services.AddDbContext<MyDbContext>(
     options => options.UseSqlServer(conectionString)
-    ); 
+    );
+
+// CORS
+builder.Services.AddCors(options =>
+    options.AddDefaultPolicy(
+        policy => policy
+            .WithOrigins("http://localhost:4200")
+            .AllowAnyHeader()
+            .AllowAnyMethod())
+);
 
 var app = builder.Build();
 
