@@ -15,6 +15,7 @@ namespace Tarea.Controllers
         {
             db = context;
         }
+
         //listar las marcas
         [HttpGet]
         [Route("")]
@@ -23,6 +24,7 @@ namespace Tarea.Controllers
             List<Marca> marca = db.Marca.ToList();
             return Ok(marca);
         }
+
         //listar la marca segun su id
         [HttpGet]
         [Route("{marcaId}")]
@@ -37,6 +39,7 @@ namespace Tarea.Controllers
             }
             return Ok(marca);
         }
+
         //crear una marca
         [HttpPost]
         [Route("")]

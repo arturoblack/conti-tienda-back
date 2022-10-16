@@ -1,16 +1,29 @@
-﻿<Properties>
+﻿<Properties StartupConfiguration="{438B1D96-63E8-4B65-801D-D2A4E880690E}|Default">
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Tarea PreferredExecutionTarget="/Applications/Firefox.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Tarea/Controllers/MarcaController.cs">
+    <Files>
+      <File FileName="Tarea/Controllers/MarcaController.cs" Line="46" Column="30" />
+      <File FileName="Tarea/conti-demo-back.PublishSettings" Line="1" Column="1" />
+      <File FileName="Tarea/MyDb/Tablas/Marca.cs" Line="12" Column="25" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Tarea" expanded="True">
-            <Node name="Tarea" selected="True" />
+            <Node name="Tarea" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="MarcaController.cs" selected="True" />
+              </Node>
+              <Node name="MyDb" expanded="True">
+                <Node name="Tablas" expanded="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
