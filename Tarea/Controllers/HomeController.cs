@@ -11,7 +11,7 @@ namespace Tarea.Controllers
         [Route("")]
         public ActionResult HomePage()
         {
-            return Ok(new {hola = "mundo"});
+            return Ok(new {hola = "Amiguitos"});
         }
     }
 }
